@@ -1,0 +1,760 @@
+<html>
+<head>
+<link rel="stylesheet" href="reset.css">
+<link rel="stylesheet" href="bootstrap.min.css">
+<link rel="stylesheet" href="font_os/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+<style>
+.custom-bg-1{
+background-color:#111119;
+}
+.custom-myriad-pro{
+font-family:Myraid-Pro;
+
+}
+.col, .col-1, .col-10, .col-11, .col-12, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-auto, .col-lg, .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-auto, .col-md, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-auto, .col-sm, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-auto, .col-xl, .col-xl-1, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-auto{
+padding:0px;
+}
+.row{
+margin:0px;
+}
+p,h1,h2,h3,h4,h5,h6{
+margin:0px;
+}
+.custom-white{
+color:white;
+font-size:22px;
+}
+.custom-whitee{
+color:white;
+
+}
+.se{
+height: 900px;
+    width: 100%;
+    background-image: url(layer2.png);
+    background-color: #000000;
+    background-position: -282px -63px;
+}
+@font-face{
+font-family:regular;
+src:url("Cairo-Regular.ttf");
+}
+.regular{
+font-family:regular;
+}
+@font-face{
+font-family:bold;
+src:url("Cairo-SemiBold.ttf");
+}
+.bold{
+font-family:blod;
+}
+@font-face{
+font-family:light;
+src:url("Cairo-Light.ttf");
+}
+.light{
+font-family:light;
+}
+@font-face{
+font-family:ExtraLight;
+src:url("Cairo-ExtraLight.ttf");
+}
+.extralight{
+font-family:ExtraLight;
+}
+.yes{
+background-color:#111119;
+
+}
+.grey{
+background:#3D4150;
+
+}
+
+.accordion-button{
+position:relative;
+
+}
+
+.accordion-button:focus{
+ box-shadow:0 0 0 0rem rgb(13 110 253 / 25%);
+ z-index:0;
+}
+.accordion-button::after{
+font-family:"Font Awesome 5 Free";
+font-weight:900;
+content:"\f067";
+position:absolute;
+top:16px;
+right:15px;
+background-image: none;
+
+}
+.accordion-body{
+background-color:#3D4150;
+} 
+.accordion-button:not(.collapsed){
+background-color:#3D4150;
+}
+.accordion-button:not(.collapsed)::after{
+font-family:"Font Awesome 5 Free";
+font-weight:900;
+content:"\f068";
+position:absolute;
+top:16px;
+right:15px;
+background-image: none;
+}
+.accordion-item{
+border:0px;
+}
+.new{
+background:#20212B;
+
+}
+.fa-circle{
+font-size:10px;
+}
+.last{
+    height: 888px;
+    width: 100%;
+    background-image: url(yes.png);
+    background-color: black;
+    background-position: -368px -46px;
+}
+.meet{
+background-color:#111119;
+}
+.card{
+background-color:transparent;
+color:white;
+margin:0px;
+}
+.end{
+ height: 650px;
+    width: 100%;
+    background-image: url(gg.png);
+    background-color: black;
+     background-position: -2238px 59px;
+}
+.hh{
+font-size:20px;
+color:white;
+
+
+}
+.img{
+background-color:#3D4150;
+}
+.kk{
+color:#1F2129;
+}
+.zz{
+font-size:22px;
+}
+</style>
+</head>
+
+
+
+<body>
+<div class="container-fluid custom-bg-1  ">
+<div class="container   mx-auto">
+<nav class="navbar navbar-expand-lg">
+<div class="container">
+<a class="navbar-brand" href="#"><img src="logo.png" class="img-fluid"></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="##navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active custom-myriad-pro text-white fw-bold "  aria-current="page" href="#">Spacegate App</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link custom-myriad-pro text-white text-light" href="#">Road Map</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link custom-myriad-pro text-white text-light" href="#"  aria-expanded="false">
+            FAQ
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link custom-myriad-pro text-white text-light">Team</a>
+        </li>
+		 <li class="nav-item">
+       <img src="open.png" class="img-fluid pt-2 ps-1">
+        </li>
+		 <li class="nav-item">
+       <span class="fab fa-twitter custom-white ps-3 pt-2 fa-1x"></span>
+        </li>
+			 <li class="nav-item">
+       <span class="fab fa-instagram custom-white ps-3 pt-2 fa-1x"></span>
+        </li>
+		 <li class="nav-item">
+       <img src="dis.png" class="img-fluid pt-2 ps-3">
+        </li>
+      </ul>
+</div>
+</nav>
+</div>
+</div>
+
+
+
+
+
+
+
+<div class="col-8 mx-auto pt-5">
+<h3 class=" text-white text-uppercase ps-5  text-light pt-4" style="font-weight:normal; ">welcome to</h3>
+<h2 class=" text-white text-uppercase ps-5  text-light" style="font-weight:normal;">the spacegate pass</h2>
+
+
+
+</div>
+
+
+
+
+</div>
+<div class="col-12 se">
+<div class="col-9 mx-auto  pt-2">
+<div class="row">
+<div class="col-1"></div>
+<div class="col-7 ps-4 pb-4">
+<p class="text-white">The first mobile ON-Chain NFT information and community platform.</p>
+<p class="text-white">Limited to 2000 all-access passes with no additional future mints.</p>
+
+</div>
+<div class="col-3 mb-5">
+
+<img src="om.png" class="img-fluid" style="position: absolute;top: 18%; height:388px;">
+
+</div>
+
+
+</div>
+
+
+
+
+</div>
+
+<div class="col-8 mx-auto pt-1 ps-5 pb-5 ">
+<button class="btn  btn-outline-light ps-4 pe-4" >Discord</button>
+<button class="btn  btn-outline-light ms-3 ps-4 pe-4 disabled" >MINT</button>
+
+
+</div>
+<div class="col-12 mt-5">
+<div class="col-12 pt-5">
+<div class="col-8 ps-5 mt-5 pt-3 mx-auto">
+<div class="row">
+<div class="col-3">
+
+<img src="second.png"  style="height:480px; width:100%;">
+</div>
+<div class="col-3">
+
+<img src="third.png"  style="height:480px; width:100%;">
+</div>
+
+<div class="col-6 ps-4">
+<h5 class="text-white pt-2 text-uppercase">overview</h5>
+<h4 class="text-white pt-2 text-uppercase">the spacegate app</h4>
+<p class="text-white pt-4 extralight">It combines the biggest NFT tools out there so you can get all</p>
+<p class="text-white extralight">the information you need in one simple app which makes you</p>
+<p class="text-white extralight">NFT life easier and a lot stressful.
+<p class="pt-4 text-white extralight">By holding a Spacegate Pass you will recieve all-access to</p>
+<p class="text-white extralight pb-5 mb-5">exclusive functions in the App.</p>
+
+
+
+<p class="text-white text-uppercase text-center pt-4">soon available</p>
+
+<div class="col-8 mx-auto pt-3">
+<div class="row">
+<div class="col-6 pe-3">
+<div class="col-12">
+<img src="apple.png" class="img-fluid">
+
+</div>
+</div>
+<div class="col-6 ">
+<div class="col-12">
+<img src="google.png" class="img-fluid">
+
+</div>
+</div>
+
+
+
+
+</div>
+</div>
+
+
+
+
+</div>
+
+
+
+
+</div>
+</div>
+</div>
+</div>
+
+
+
+
+</div>
+
+<div class="col-12 yes pt-2">
+<div class="col-8 mx-auto ps-4  pt-3 pb-5 mb-4">
+<div class="col-12">
+<div class="row">
+<div class="col-6 ps-4">
+<h2 class="light text-uppercase text-white">free app utilities</h2>
+<p class="text-white extralight">By just download the App in the App Store you will get the</p>
+<p class="text-white extralight">following utilites:</p>
+
+<div class="accordion pt-4" id="accordionExample">
+  <div class="accordion-item " >
+    <h2 class="accordion-header" id="headingOne" >
+      <button class="accordion-button  text-white grey collapsed" style="background:#3D4150; border:2px  #3d4150;" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+        NFT calls & Weekly Drop Notification
+      </button>
+    </h2>
+    <div id="collapseOne" class="accordion-collapse collapse " aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+    </div>
+  </div>
+  <div class="accordion-item mt-2">
+    <h2 class="accordion-header" id="headingTwo">
+      <button class="accordion-button collapsed text-white grey" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+        Public News Channel & Market Update
+      </button>
+    </h2>
+    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+    
+    </div>
+  </div>
+  <div class="accordion-item mt-2">
+    <h2 class="accordion-header" id="headingThree">
+      <button class="accordion-button collapsed text-white grey" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+        NFT Social Media Comming Soon
+      </button>
+    </h2>
+    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+     
+    </div>
+  </div>
+</div>
+
+
+
+
+
+</div>
+<div class="col-6 ps-5">
+<h2 class="text-white text-uppercase light">pass holder utilites</h2>
+<p class="text-white extralight">Only pass holderswill profit from exclusive utilites in our app</p>
+<p class="extralight text-white">with no extra payment:</p>
+
+<div class="accordion pt-4" id="accordionExample">
+  <div class="accordion-item rounded " >
+    <h2 class="accordion-header" id="headingne" >
+      <button class="accordion-button  text-white grey collapsed " style="background:#3D4150; border:2px  #3d4150;" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOnee" aria-expanded="true" aria-controls="collapseOne">
+        NFT calls & Weekly Drop Notification
+      </button>
+    </h2>
+    <div id="collapseOnee" class="accordion-collapse collapse " aria-labelledby="headingne" data-bs-parent="#accordionExample">
+    </div>
+  </div>
+  <div class="accordion-item mt-2 rounded">
+    <h2 class="accordion-header" id="headingTwo">
+      <button class="accordion-button collapsed text-white grey" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwoo" aria-expanded="false" aria-controls="collapseTwo">
+        Public News Channel & Market Update
+      </button>
+    </h2>
+    <div id="collapseTwoo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+    
+    </div>
+  </div>
+  <div class="accordion-item mt-2">
+    <h2 class="accordion-header" id="headingThree">
+      <button class="accordion-button collapsed text-white grey" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThreee" aria-expanded="false" aria-controls="collapseThree">
+        Real Time Floor & Voluem Tracking
+      </button>
+    </h2>
+    <div id="collapseThreee" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+     
+    </div>
+  </div>
+    <div class="accordion-item mt-2">
+    <h2 class="accordion-header" id="headingThree">
+      <button class="accordion-button collapsed text-white grey" type="button" data-bs-toggle="collapse" data-bs-target="#collapsefour" aria-expanded="false" aria-controls="collapseThree">
+        Track & Follow your Favoriute Wallet
+      </button>
+    </h2>
+    <div id="collapsefour" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+     
+    </div>
+  </div>
+    <div class="accordion-item mt-2">
+    <h2 class="accordion-header" id="headingThree">
+      <button class="accordion-button collapsed text-white grey" type="button" data-bs-toggle="collapse" data-bs-target="#collapsefive" aria-expanded="false" aria-controls="collapseThree">
+        Exclusive Patnership Giveways
+      </button>
+    </h2>
+    <div id="collapsefive" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+     
+    </div>
+  </div>
+    <div class="accordion-item mt-2">
+    <h2 class="accordion-header" id="headingThree">
+      <button class="accordion-button collapsed text-white grey" type="button" data-bs-toggle="collapse" data-bs-target="#collapsesix" aria-expanded="false" aria-controls="collapseThree">
+        Rarity Checker
+      </button>
+    </h2>
+    <div id="collapsesix" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+     
+    </div>
+  </div>
+    <div class="accordion-item mt-2">
+    <h2 class="accordion-header" id="headingThree">
+      <button class="accordion-button collapsed text-white grey" type="button" data-bs-toggle="collapse" data-bs-target="#collapseseven" aria-expanded="false" aria-controls="collapseThree">
+        NFT Social Media(coming soon)
+      </button>
+    </h2>
+    <div id="collapseseven" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+     
+    </div>
+  </div>
+  
+  
+  
+</div>
+
+
+
+
+
+
+</div>
+
+
+
+
+
+
+</div>
+</div>
+</div>
+
+<div class="col-8 mx-auto pt-2 new rounded">
+<h2 class="text-uppercase text-white text-center ">roadmap</h2>
+<p class="text-white extrasmall ps-4">The Spacegate Pass $ App is a full time project for us and we already have years of utility planned to contiously deliver</p>
+<p class="text-white extrasmall ps-3">more value to the Spacegate Pass holders. Every quater we will be alunching new short-term roadmaps. While we have a lot</p>
+<p class="text-white extrasmall ps-4">planned of our road-map, we also plan to drop bonus announcements randomly to deliver more value to our long-term</p>
+<p class="text-white extrasmall text-center">holders.</p>
+
+</div>
+
+<div class="col-8 mx-auto pt-5">
+<h2 class="text-white ">Pre-Mint:</p>
+<h3 class="text-white pt-5"><span class="fa fa-circle pe-5"></span> Marketing & Community</h3>
+<p class="text-white extrasmall ps-5 pt-3 ms-3">Our marketing begins and we'll build a solid community of people who are sharing the same vision we have</p>
+<p class="text-white extrasmall ps-5 ms-3">Out of 2000 passes, we'll hand out 1500 whitelists to OGs, contributors and giveawayroles.</p>
+<p class="text-white extrasmall ps-5 ms-3 pb-5">The team will reserve 100 passes for marketing purposes(i.e. giveaways and future collabrotations.</p>
+
+<h2 class="text-white pt-3">Post-Mint:</p>
+<h3 class="text-white pt-5"><span class="fa fa-circle pe-5"></span> Starting of the App Development</h3>
+<p class="text-white extrasmall pt-3 ps-5 ms-3">As soon as the NFT mint is over, our developers will immediately start with yhe App Development.During this time,all</p>
+<p class="text-white extrasmall ps-5 ms-3">Spacegate Pass holders will have access to some of the app functions within our Discord server(in private channels) to </p>
+<p class="text-white extrasmall ps-5 ms-3">them an immediate benefit.</p>
+
+<h3 class="text-white pt-5"><span class="fa fa-circle pe-5"></span> Private community Chat</h3>
+<p class="text-white extrasmall pt-3 ps-5 ms-3">After the official mint of the Spacegate Pass, the holders will be granted access to community chat and private NFT </p>
+<p class="text-white extrasmall ps-5 ms-3">going over new high potential NFT sets. We are constantly adding new members to the team and community that are</p>
+<p class="text-white extrasmall ps-5 ms-3">knowledgeable and experinced with NFTs.</p>
+
+
+
+
+
+
+
+</div>
+
+
+
+</div>
+
+<div class="col-12 last">
+<div class="col-8 mx-auto ">
+<h3 class="text-white pt-3"><span class="fa fa-circle pe-5"></span>Community Grand Fund of $25,000</h3>
+<p class="text-white extrasmall pt-3 ps-5 ms-3">We will launch a community grant fund starting with $25,000 for the first year of development for those who want to</p>
+<p class="text-white extrasmall ps-5 ms-3">contribute value to the Spacegate Pass and recieve funding from the Spacegate Team. In addition, 2.5% of OpenSea </p>
+<p class="text-white extrasmall ps-5 ms-3">will be added to the future community grants in order to consistently add value and utility to Spacegate Pass.</p>
+<h3 class="text-white pt-4"><span class="fa fa-circle pe-5"></span>Spacegate Launchpad</h3>
+<p class="text-white extrasmall ps-5 ms-3 pt-3">To bring even more value to our NFT holders, we are helping other projects develop and launch their NFT sets.</p>
+<p class="text-white extrasmall ps-5 ms-3 pb-5">Members will get various benefits from this like early whitelist access,giveways, cheaper mint cost and more.</p>
+
+<h2 class="text-white text-uppercase pt-5 mt-3 ps-2">faq</h2>
+<div class="accordion pt-4 ps-2" id="accordionExample">
+  <div class="accordion-item rounded " >
+    <h2 class="accordion-header" id="headingOne" >
+      <button class="accordion-button  text-white grey collapsed rounded" style="background:#3D4150; border:2px  #3d4150;" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1" aria-expanded="true" aria-controls="collapseOne">
+        What is Spacegate Pass
+      </button>
+    </h2>
+    <div id="collapse1" class="accordion-collapse collapse " aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+<div class="accordion-body">
+<p  class="text-white extralight">The Spacegate Pass is a NFT collection limited to 2000 passes, build for an exclusive access to the Spacegate App and to</p>
+<p class="text-white extralight">every function the app will provide.</p>
+</div>   
+   </div>
+  </div>
+    <div class="accordion-item rounded  mt-3" >
+    <h2 class="accordion-header" id="headingOne" >
+      <button class="accordion-button  text-white grey collapsed rounded" style="background:#3D4150; border:2px  #3d4150;" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2" aria-expanded="true" aria-controls="collapseOne">
+        How many Passes will be available?
+      </button>
+    </h2>
+    <div id="collapse2" class="accordion-collapse collapse " aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+    <div class="accordion-body">
+<p  class="text-white extralight">The Spacegate Pass is a NFT collection limited to 2000 passes, build for an exclusive access to the Spacegate App and to</p>
+<p class="text-white extralight">every function the app will provide.</p>
+</div>
+	</div>
+  </div>
+ 
+     <div class="accordion-item rounded  mt-3" >
+    <h2 class="accordion-header" id="headingOne" >
+      <button class="accordion-button  text-white grey collapsed rounded" style="background:#3D4150; border:2px  #3d4150;" type="button" data-bs-toggle="collapse" data-bs-target="#collapse3" aria-expanded="true" aria-controls="collapseOne">
+        How much does minting a NFT cost? 
+      </button>
+    </h2>
+    <div id="collapse3" class="accordion-collapse collapse " aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+    <div class="accordion-body">
+<p  class="text-white extralight">The Spacegate Pass is a NFT collection limited to 2000 passes, build for an exclusive access to the Spacegate App and to</p>
+<p class="text-white extralight">every function the app will provide.</p>
+</div>
+	</div>
+  </div>
+     <div class="accordion-item rounded  mt-3" >
+    <h2 class="accordion-header" id="headingOne" >
+      <button class="accordion-button  text-white grey collapsed rounded" style="background:#3D4150; border:2px  #3d4150;" type="button" data-bs-toggle="collapse" data-bs-target="#collapse4" aria-expanded="true" aria-controls="collapseOne">
+        How do I get access to the App Utilites and the private comunity?
+      </button>
+    </h2>
+    <div id="collapse4" class="accordion-collapse collapse " aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+    <div class="accordion-body">
+<p  class="text-white extralight">The Spacegate Pass is a NFT collection limited to 2000 passes, build for an exclusive access to the Spacegate App and to</p>
+<p class="text-white extralight">every function the app will provide.</p>
+</div>
+	</div>
+  </div>
+     <div class="accordion-item rounded  mt-3" >
+    <h2 class="accordion-header" id="headingOne" >
+      <button class="accordion-button  text-white grey collapsed rounded" style="background:#3D4150; border:2px  #3d4150;" type="button" data-bs-toggle="collapse" data-bs-target="#collapse5" aria-expanded="true" aria-controls="collapseOne">
+        When is the Mint date?
+      </button>
+    </h2>
+    <div id="collapse5" class="accordion-collapse collapse " aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+    <div class="accordion-body">
+<p  class="text-white extralight">The Spacegate Pass is a NFT collection limited to 2000 passes, build for an exclusive access to the Spacegate App and to</p>
+<p class="text-white extralight">every function the app will provide.</p>
+</div>
+	</div>
+  </div>
+     <div class="accordion-item rounded  mt-3" >
+    <h2 class="accordion-header" id="headingOne" >
+      <button class="accordion-button  text-white grey collapsed rounded" style="background:#3D4150; border:2px  #3d4150;" type="button" data-bs-toggle="collapse" data-bs-target="#collapse6" aria-expanded="true" aria-controls="collapseOne">
+        Is there any reason to hold more than one pass?
+      </button>
+    </h2>
+    <div id="collapse6" class="accordion-collapse collapse " aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+    <div class="accordion-body">
+<p  class="text-white extralight">The Spacegate Pass is a NFT collection limited to 2000 passes, build for an exclusive access to the Spacegate App and to</p>
+<p class="text-white extralight">every function the app will provide.</p>
+</div>
+	</div>
+  </div>
+    <div class="accordion-item rounded  mt-3" >
+    <h2 class="accordion-header" id="headingOne" >
+      <button class="accordion-button  text-white grey collapsed rounded" style="background:#3D4150; border:2px  #3d4150;" type="button" data-bs-toggle="collapse" data-bs-target="#collapse7" aria-expanded="true" aria-controls="collapseOne">
+        How do I apply for the community grant fund?
+      </button>
+    </h2>
+    <div id="collapse7" class="accordion-collapse collapse " aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+<div class="accordion-body">
+<p  class="text-white extralight">The Spacegate Pass is a NFT collection limited to 2000 passes, build for an exclusive access to the Spacegate App and to</p>
+<p class="text-white extralight">every function the app will provide.</p>
+</div>   
+   </div>
+  </div>
+</div>
+
+
+
+</div>
+</div>
+
+<div class="col-12 pt-5 meet">
+<div class="col-8 mx-auto pt-5">
+<h2 class="text-white text-uppercase text-center">meet the team</h2>
+<p class="text-center text-white extrasmall pb-5">A team completely dedicated to make your life easier and see you succeed</p>
+<div class="col-12">
+<div class="row">
+<div class="col-3 pe-3">
+<div class="col-12">
+<div class="card border-0" >
+  <img src="first1.png" class="card-img-top" alt="">
+  <div class="card-body">
+    <h5 class="card-title">Julian</h5>
+    <h6 class="card-subtitle ">Founder| Managment</h6>
+    <p class="card-text extralight">Julian is an engineering graduate from Grermany. During his career at the university, his studies and additional courses allowed hin to develop his</p>
+  
+  </div>
+</div>
+
+</div>
+</div>
+<div class="col-3 ps-2">
+<div class="col-12">
+<div class="card border-0" >
+  <img src="second2.png " class="card-img-top pe-2" alt="">
+  <div class="card-body">
+    <h5 class="card-title">Tim</h5>
+    <h6 class="card-subtitle ">Founder| Creative Mind</h6>
+    <p class="card-text extralight">Tim is a German digital artist and NFT trader who has worked with companies likeHuawei,Sennheiser and many more. He has also published 2</p>
+  
+  </div>
+</div>
+
+</div>
+</div>
+<div class="col-3 ps-2">
+<div class="col-12">
+<div class="card border-0" >
+  <img src="third3.png" class="card-img-top ps-2" alt="">
+  <div class="card-body">
+    <h5 class="card-title">Kevin</h5>
+    <h6 class="card-subtitle ">Developer</h6>
+    <p class="card-text extralight">Kevin is a software engineer from Germany with an experince of over 10 years. Orignally from an ecommerce background in Web2(PHP,Symfony,</p>
+  
+  </div>
+</div>
+
+</div>
+</div>
+<div class="col-3 ps-2">
+<div class="col-12">
+<div class="card border-0" >
+  <img src="four4.png" class="card-img-top ps-2" alt="">
+  <div class="card-body">
+    <h5 class="card-title">DJ</h5>
+    <h6 class="card-subtitle ">Engineer</h6>
+    <p class="card-text extralight">With having spent many years in fintech sphere within with Local Banks, Community Banks, and as well Credit Unions DJ has been creating custom</p>
+  
+  </div>
+</div>
+
+</div>
+</div>
+
+
+
+
+</div>
+</div>
+
+</div>
+</div>
+<div class="col-12 end">
+<div class="col-8 mx-auto">
+<div class="row">
+<div class="col-3">
+<div class="col-12 ps-3 pe-2">
+<p class="text-white extralight">strengths in start-up building, technical innovation and project managment. He has already contributed to the development of several apps.</p>
+<span class="fab fa-twitter text-white hh pe-3 pt-3"></span><span class="fab fa-instagram hh pe-3"></span><span class="fab fa-linkedin hh"></span>
+
+
+</div>
+</div>
+<div class="col-3">
+<div class="col-12 ps-3 pe-2">
+<p class="text-white extralight">different apps with more than 250.000 downloads and has been exhibited in the largest newspaper like The Telegraph or the Huffington Post.</p>
+<span class="fab fa-twitter text-white hh pe-3 pt-3"></span><span class="fab fa-instagram hh pe-3"></span><span class="fab fa-linkedin hh"></span>
+
+
+</div>
+</div>
+<div class="col-3">
+<div class="col-12 ps-4 pe-2">
+<p class="text-white extralight">AMQP Queues), Kevin is transitioning with his own company What the Commit to a Web3 Fullstack Developer (JS, NodeJS, Solidity), based on his experinces. </p>
+<span class="fab fa-twitter text-white hh pe-3 pt-3"></span><span class="fab fa-instagram hh pe-3"></span><span class="fab fa-linkedin hh"></span>
+
+
+</div>
+</div>
+<div class="col-3 pb-5">
+<div class="col-12 ps-4 pe-2">
+<p class="text-white extralight">solutions to help the institutions with onboarding as well even with solutions with the United States SBA loan programs offered.</p>
+<span class="fab fa-twitter text-white hh pe-3 pt-3"></span><span class="fab fa-instagram hh pe-3"></span><span class="fab fa-linkedin hh"></span>
+
+
+</div>
+</div>
+
+
+
+
+</div>
+
+
+<h1 class="text-center text-white text-uppercase pt-5 mt-4">join our discord</h1>
+
+<p class="text-center text-white pt-2 pb-4">Join our discord to not miss any future annoucments</p>
+<div class="col-3 mx-auto pt-1 img rounded mb-5">
+<img src="button.png" class="img-fluid ps-2">
+</div>
+<div class="col-12 pt-5"></div>
+<div class="col-12 pt-1 mt-5" style="background-color:#1F2129;">
+
+
+</div>
+<div class="col-12 pt-1">
+<div class="row">
+<div class="col-9">
+
+<p class="extrasmall" style="color:#1F2129;">Spacegate Pass © All rights reserved.</p>
+</div>
+<div class="col-3 ">
+<span class="">
+<img src="open.png " class="pe-2 kk pt-2" style="color:#1F2129;">
+<img src="twitter.png" class=" pe-2 kk zz pt-2">
+<img src="instagram.png" class=" pe-2 kk zz pt-2">
+<img src="discord.png" class="pe-2 kk pt-2">
+</span>
+
+
+</div>
+
+</div>
+
+</div>
+</div>
+</div>
+
+
+<script src="jquery-3.6.0.min.js"></script>
+<script src="bootstrap.bundle.min.js"></script>
+</body>
+</html>

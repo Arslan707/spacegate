@@ -1,0 +1,930 @@
+<html>
+<head>
+<link rel="stylesheet" href="reset.css">
+<link rel="stylesheet" href="bootstrap.min.css">
+<link rel="stylesheet" href="font_os/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+<style>
+.col, .col-1, .col-10, .col-11, .col-12, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-auto, .col-lg, .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-auto, .col-md, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-auto, .col-sm, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-auto, .col-xl, .col-xl-1, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-auto{
+padding:0px;
+}
+.row{
+margin:0px;
+}
+p,h1,h2,h3,h4,h5,h6{
+margin:0px;
+}
+@font-face{
+font-family:bold;
+src:url("Montserrat-Bold.ttf");
+
+}
+.bold{
+font-family:bold;
+}
+@font-face{
+font-family:regular;
+src:url("Montserrat-Regular.ttf");
+}
+.regular{
+font-family:regular;
+
+}
+@font-face{
+font-family:light;
+src:url("Montserrat-Light.ttf");
+}
+.light{
+font-family:light;
+}
+a{
+text-decoration:none;
+}
+.gg{
+font-size:20px;
+}
+.bb{
+color:black;
+font-size:16px;
+font-weight:600;
+
+}
+sol::after{
+content: "\e900";
+    display: inline-block;
+    font-family: Astra;
+    font-size: .6rem;
+    font-weight: bold;
+    text-rendering: auto;
+
+
+}
+ul li:hover .as{
+color:#1176BE;
+transition:0.5sec;
+}
+.sol{
+position:relaitive;
+}
+.subnn{
+position:absolute;
+display:none;
+backgrolund-color:#FFFFFF;
+}
+.sub{
+
+    border: 2px solid black;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+
+line-height:34px;
+text-align:center;
+
+
+}
+.re{
+border-radius: 39px!important;
+font-size:15px;
+color:white;
+font-weight:500;
+}
+.re:hover{
+background:black;
+}
+ul.menu li.yrt:hover .subnn{
+display:block;
+z-index: 999;
+}
+.as{
+text-align:center;
+
+}
+.d-block{
+height:600px;
+width:100%;
+
+}
+.active{
+position:relative;
+
+
+}
+.overlay{
+position: absolute;
+    background: #000000b5;
+    height: 600px;
+    width: 100%;
+}
+.navbar-toggler{
+background-color:blue;
+color:black;
+}
+.carousel-control-next-icon, .carousel-control-prev-icon{
+margin-left:-144px;
+
+
+}
+.carousel-control-next-icon{
+margin-right: -282px;
+}
+.gf{
+font-size:20px;
+font-weight:400;
+}
+.ss{
+color:black;
+font-size:40px;
+font-weight:700;
+
+
+}
+.asd{
+font-size:16px;
+font-weight:600px;
+color:black;
+
+}
+.fa-chevron-right {
+color:grey;
+
+}
+.btn .badge{
+border-radius: 46px;
+}
+.gd{
+color:black;
+font-size:40px;
+font-weight:600;
+
+}
+.fd{
+background-image:url("IT.png");
+height:250px;
+background-size:cover;
+border-radius: 19px;
+position:relative;
+
+}
+.yyy{
+position:absolute;
+height:250px;
+border-radius: 19px;
+}
+.mn{
+font-size:24px;
+font-weight:600;
+color:white;
+text-align:center;
+text-transform:capitalize;
+}
+.fdw{
+background-image:url("cloude.jpg");
+height:250px;
+background-size:cover;
+border-radius: 19px;
+position:relative;
+
+}
+.dw{
+background-image:url("backups.jpg");
+height:250px;
+background-size:cover;
+border-radius: 19px;
+position:relative;
+
+}
+.de{
+background-image:url("design.png");
+height:250px;
+background-size:cover;
+border-radius: 19px;
+position:relative;
+
+}
+.dee{
+background-image:url("security.jpg");
+height:250px;
+background-size:cover;
+border-radius: 19px;
+position:relative;
+
+}
+.dww{
+background-image:url("networks.jpg");
+height:250px;
+background-size:cover;
+border-radius: 19px;
+position:relative;
+
+}
+.ee{
+background-image:url("phones.jpg");
+height:250px;
+background-size:cover;
+border-radius: 19px;
+position:relative;
+
+}
+.ww{
+background-image:url("website.jpg");
+height:250px;
+background-size:cover;
+border-radius: 19px;
+position:relative;
+
+}
+.zx{
+background-color:#F5F7FA;
+
+}
+.bv{
+font-size:16px;
+font-weight:400;
+color:#777777;
+}
+.asa{
+border-radius: 31px;
+}
+.isd{
+font-size:15px;
+font-weight:500;
+color:black;
+}
+.hg{
+font-size:12px;
+font-weight:400;
+color:#999999;
+
+}
+.fa-star,.fa-star-half-stroke{
+color:#DBA929;
+}
+.kjh{
+border: 2px #DBA929;
+color:white;
+}
+.fa.fa-star-o {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 400;
+}
+.lmj{
+font-size:15px;
+font-weight:500;
+color:#3a3a3a;
+}
+.asaa{
+font-size:15px;
+font-weight:700;
+color:#3a3a3a;
+
+}
+.lkj{
+background-color:#1A1A1A;
+}
+[data-section="section-header-mobile-trigger"] .ast-button-wrap .mobile-menu-toggle-icon .ast-mobile-svg{
+fill:black;
+}
+.mbx{
+background-color:##1176b7;
+}
+.lj{
+color:#0A58CA;
+}
+.custom{
+border-style: solid;
+    border-top-width: 0;
+    border-right-width: 0;
+    border-left-width: 0;
+    border-bottom-width: 0;
+    color: var(--ast-global-color-5);
+    border-color: #1176b7;
+    background-color: #1176b7;
+    border-radius: 50px;
+    padding-top: 15px;
+    padding-right: 40px;
+    padding-bottom: 15px;
+    padding-left: 40px;
+    font-family: inherit;
+    font-weight: inherit;
+    
+    font-size: 1rem;
+    line-height: 1;
+}
+.kf{
+font-size:15px;
+font-weight:500;
+}
+.jj{
+font-size:25px;
+font-weight:700;
+color:black;
+}
+</style>
+</head>
+
+
+
+<body>
+<div class="container-fluid bg-white sticky-top  pt-2 ">
+<div class="container">
+<div class="row"> 
+<div class="col-lg-2 col-8 mx-lg-0 mx-auto">
+<a href="#" class="regular pe-lg-4 pe-0 lj kf"><span class="fa fa-phone pt-3 lj "></span> 0300-6000271 </a>|
+<p class=""></p>
+
+</div>
+<div class="col-lg-2 col-8 mx-lg-0 mx-auto">
+<a href="#" class=" regular lj kf"><span class="fa fa-envelope pt-3 pe-lg-2 pe-0"></span> info@digione.com </a>
+<p class=""></p>
+
+</div>
+<div class="col-lg-1 col-12 mx-lg-0 mx-auto ms-lg-auto ms-0 pt-3">
+
+<a href="#" class="pe-3 lj"><span class="fab fa-facebook-square gg"></span></a>
+<a href="#" class="lj"><span class="fab fa-linkedin gg"></span></a>
+
+
+
+</div>
+
+
+
+
+</div>
+</div>
+</div>
+<hr>
+<div class="container-fluid    pb-2 ">
+<div class="container">
+<nav class="navbar navbar-expand-lg ">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#"><img src="logo.png" ></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarText">
+      <ul class="navbar-nav ms-auto menu ">
+        <li class="nav-item pe-3">
+          <a class="nav-link active bb regular as" aria-current="page" href="bilalcode.html">Home</a>
+        </li>
+        <li class="nav-item pe-3">
+          <a class="nav-link bb regular as" href="about.html">About Us</a>
+        </li>
+        <li class="nav-item yrt pe-3">
+          <a class="nav-link bb regular sol as" href="solutions.html">Solutions <span class="fas fa-caret-down"</a>
+		  <ul class="subnn" style="background-color:white;">
+		  <li class="nav-item sub">
+		  <a href="it.html" class=" bg-white bb" style="border-top:2px blue !important;">IT Consulting Transformation And Support</a>
+		  </li>
+		  <li class="nav-item sub">
+		  <a href="cloud.html" class=" bg-white bb">Cloud And Software</a>
+		  </li> 
+		    <li class="nav-item sub">
+		  <a href="end.html" class=" bg-white bb">Endpoint Managment</a>
+		  </li> 
+		    <li class="nav-item sub">
+		  <a href="back.html" class=" bg-white bb">Backups And Disaster Recovery</a>
+		  </li> 
+		    <li class="nav-item sub">
+		  <a href="security.html" class=" bg-white bb">Security Solutions</a>
+		  </li> 
+		    <li class="nav-item sub">
+		  <a href="net.html" class=" bg-white bb">Managed Network</a>
+		  </li> 
+		    <li class="nav-item sub">
+		  <a href="phone.html" class=" bg-white bb">Bussiness Phone System</a>
+		  </li> 
+		    <li class="nav-item sub">
+		  <a href="web.html" class=" bg-white bb">Web Design & Development</a>
+		  </li> 
+		  
+		  
+		  </ul>
+		  
+        </li>
+		 <li class="nav-item pe-3">
+          <a class="nav-link active bb regular as" aria-current="page" href="contact.html">Contact Us</a>
+        </li>
+		 <li class="nav-item">
+          <a class="nav-link active bb regular as" aria-current="page" href="news.html">News</a>
+        </li>
+      </ul>
+    </div>
+	
+	<button class="btn custom rounded re  btn-lg regular text-white  mbx  ms-4 d-lg-block d-none">Free It Survey</button>
+	
+  </div>
+</nav>
+
+
+
+
+</div>
+</div>
+<div class="col-12 pb-5">
+
+<div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active" data-bs-interval="10000">
+	<div class="overlay">
+	<div class=" "></div>
+	<div class="pt-lg-5 pt-3 "></div>
+	<div class=" ps-lg-5 ps-4 mt-lg-5 mt-0 pt-lg-5 pt-0 ">
+	<h1 class="blod text-white ps-lg-5 ps-0 ms-lg-3 ms-0 pt-lg-4 pt-0 pb-4 bold" >Learn More ahead with Digione</h1>
+	<p class="text-white ps-lg-5 ps-0 ms-lg-3 ms-0 regular gf">Loerm ipsum dolor sit amet, consectetur adipiscing elit, sed do eisumod</p>
+<p class="text-white ps-lg-5 ps-0 ms-lg-3 ms-0 regular gf">tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim </p>
+<p class="text-white ps-5 ms-lg-3 ms-0 regular gf pb-4 d-lg-block d-none">veniam,</p>
+<div class=" ps-5 ms-3 pt-2">
+<button class="btn btn-primary aaa ps-4 pe-4 pt-2 pb-2  re bold">Explore Now</button>
+</div>
+	</div>
+	</div>
+      <img src="IT.png" class="d-block img-fluid" >
+    </div>
+    <div class="carousel-item" data-bs-interval="2000">
+	<div class="overlay">
+	<div class=" "></div>
+	<div class="pt-lg-5 pt-3 "></div>
+	<div class=" ps-lg-5 ps-4 mt-lg-5 mt-0 pt-lg-5 pt-0 ">
+	<h1 class="blod text-white ps-lg-5 ps-0 ms-lg-3 ms-0 pt-lg-4 pt-0 pb-4 bold" >Learn More ahead with Digione</h1>
+	<p class="text-white ps-lg-5 ps-0 ms-lg-3 ms-0 regular gf">Loerm ipsum dolor sit amet, consectetur adipiscing elit, sed do eisumod</p>
+<p class="text-white ps-lg-5 ps-0 ms-lg-3 ms-0 regular gf">tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim</p>
+<p class="text-white ps-5 ms-lg-3 ms-0 regular gf pb-4">veniam,</p>
+<div class=" ps-5 ms-3 pt-2">
+<button class="btn btn-primary aaa ps-4 pe-4 pt-2 pb-2 re bold">Explore Now</button>
+</div>
+	</div>
+	</div>
+      <img src="slider2.jpg" class="d-block img-fluid" >
+    </div>
+    <div class="carousel-item">
+	<div class="overlay">
+	<div class=" "></div>
+	<div class="pt-lg-5 pt-3 "></div>
+	<div class=" ps-lg-5 ps-4 mt-lg-5 mt-0 pt-lg-5 pt-0 ">
+	<h1 class="blod text-white ps-lg-5 ps-0 ms-lg-3 ms-0 pt-lg-4 pt-0 pb-4 bold" >Learn More ahead with Digione</h1>
+	<p class="text-white ps-lg-5 ps-0 ms-lg-3 ms-0 regular gf">Loerm ipsum dolor sit amet, consectetur adipiscing elit, sed do eisumod</p>
+<p class="text-white ps-lg-5 ps-0 ms-lg-3 ms-0 regular gf">tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim</p>
+<p class="text-white ps-5 ms-lg-3 ms-0 regular gf pb-4">veniam,</p>
+<div class=" ps-5 ms-3 pt-2">
+<button class="btn btn-primary aaa ps-4 pe-4 pt-2 pb-2 re bold">Explore Now</button>
+</div>
+	</div>
+	</div>
+      <img src="cloude.jpg" class="d-block img-fluid" >
+    </div>
+  </div>
+  <button class="carousel-control-prev " type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon d-lg-block d-none" aria-hidden="true"></span>
+    <span class="visually-hidden d-lg-block d-none">Previous</span>
+  </button>
+  <button class="carousel-control-next " type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+    <span class="carousel-control-next-icon d-lg-block d-none" aria-hidden="true"></span>
+    <span class="visually-hidden d-lg-block d-none">Next</span>
+  </button>
+</div>
+
+
+
+
+
+
+
+
+
+</div>
+<div class="container-fluid pt-5 pb-5">
+<div class="container">
+<h1 class="text-capitalize ss regular pb-4 ">who we are?</h1>
+<p class="asd regular pt-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad</p>
+<p class="asd regular">minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in</p>
+<p class="asd regular">voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt</p>
+<p class="asd regular pb-5">mollit anim id est laborum.</p>
+<button class="btn custom aaa text-white re regular">Read Our Story<span class="badge bg-white ms-4"><span class="fa fa-chevron-right "></span></span></button>
+
+
+
+
+</div>
+</div>
+<div class="container-fluid pt-5">
+<div class="container">
+<h1 class="text-capitalize text-center gd">our services</h1>
+<p class="text-center light pt-4 pb-5"style="color:black;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
+
+
+
+</div>
+</div>
+
+<div class="container-fluid ">
+<div class="container">
+<div class="row">
+
+<div class="col-lg-6 col-12 pe-lg-3 pe-0 pb-4">
+<a href="it.html" class="">
+<div class="col-12 fd">
+<div class="overlay yyy">
+<h1 class="mn pt-5 regular mt-5 ps-5 pe-5 pb-2">iT consulting, transformation and <span class="pt-4">support</span></h1>
+</div>
+</div>
+</a>
+</div>
+<div class="col-lg-6 col-12 ps-lg-3 ps-0 pe-lg-0 pe-0 pb-4">
+<a href="cloud.html" class="">
+<div class="col-12 fdw ">
+<div class="overlay yyy">
+<h1 class="mn pt-5 regular mt-5 ps-lg-5 ps-3 pe-lg-5 pe-0 pb-2">cloud and software</h1>
+</div>
+</div>
+</a>
+</div>
+
+
+
+
+</div>
+
+<div class="row">
+
+<div class="col-lg-6 col-12 pe-lg-3 pe-0 pb-4">
+<a href="end.html" class="">
+<div class="col-12 de">
+<div class="overlay yyy">
+<h1 class="mn pt-5 regular mt-5 ps-5 pe-5 pb-2">endpoint managment</h1>
+</div>
+</div>
+</a>
+</div>
+<div class="col-lg-6 col-12 ps-lg-3 ps-0 pb-4">
+<a href="back.html" class="">
+<div class="col-12 dw ">
+<div class="overlay yyy">
+<h1 class="mn pt-5 regular mt-5 ps-lg-5 ps-2 pe-lg-5 pe-0 pb-2">backup and disaster recovery</h1>
+</div>
+</div>
+</a>
+</div>
+
+
+
+
+</div>
+
+
+<div class="row">
+
+<div class="col-lg-6 col-12 pe-lg-3 pe-0 pb-4">
+<a href="security.html" class="">
+<div class="col-12 dee">
+<div class="overlay yyy">
+<h1 class="mn pt-5 regular mt-5 ps-lg-5 ps-2 pe-lg-5 pe-0 pb-2">security solutions</h1>
+</div>
+</div>
+</a>
+</div>
+<div class="col-lg-6 col-12 ps-lg-3 ps-0 pb-4">
+<a href="net.html" class="">
+<div class="col-12 dww ">
+<div class="overlay yyy">
+<h1 class="mn pt-5 regular mt-5 ps-lg-5 ps-2 pe-lg-5 pe-0 pb-2">managed network</h1>
+</div>
+</div>
+</a>
+</div>
+
+
+
+
+</div>
+
+<div class="row">
+
+<div class="col-lg-6 col-12 pe-lg-3 pe-0 pb-4">
+<a href="phone.html" class="">
+<div class="col-12 ee">
+<div class="overlay yyy">
+<h1 class="mn pt-5 regular mt-5 ps-5 pe-5 pb-2">bussines phone sysytem </h1>
+</div>
+</div>
+</a>
+</div>
+<div class="col-lg-6 col-12 ps-lg-3 ps-0 pb-4">
+<a href="web.html" class="">
+<div class="col-12 ww ">
+<div class="overlay yyy">
+<h1 class="mn pt-5 regular mt-5 ps-lg-5 ps-3 pe-lg-5 pe-0 pb-2">web design and development</h1>
+</div>
+</div>
+</a>
+</div>
+
+
+
+
+</div>
+
+
+
+
+
+</div>
+</div>
+
+<div class="container-fluid zx pt-5">
+<div class="container pt-5">
+<h1 class="ss regular text-center  pb-5">Customer reviews</h1>
+<div class="row pb-4">
+<div class="col-lg-6 col-12  pb-lg-0 pb-4 rounded pe-lg-4 pe-0 ">
+<div class="col-12 pt-4 bg-white pb-4">
+<p class="ps-lg-5 ps-2 bv">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi</p>
+<p class="ps-lg-5 ps-2 bv">volutpat justo sed efficitur cursus. Mauris fringilla quam vitae</p>
+<p class="ps-lg-5 ps-2 bv">lacinia viverra.</p>
+<div class="row ps-lg-5 ps-0 pt-4">
+<div class="col-2 ">
+<div class="col-12">
+<img src="ad9.jpg" class="img-fluid asa">
+
+</div>
+</div>
+<div class="col-4 ps-2 ps-lg-0">
+<p class=" isd pt-2 pb-2">Ishita Malhotra</p>
+<p class="hg ">HR Manager, WeServe LLC.</p>
+</div>
+
+<div class="col-lg-3 col-5 ms-auto pt-4 pb-2">
+
+<span class="fa fa-star"></span>
+<span class="fa fa-star"></span>
+<span class="fa fa-star"></span>
+<span class="fa fa-star"></span>
+<span class="fa fa-star-half-stroke"></span>
+
+
+</div>
+
+</div>
+
+</div>
+</div>
+
+<div class="col-lg-6 col-12 pb-lg-0 pb-4   rounded ps-lg-3 ps-0 ">
+<div class="col-12 pt-4 bg-white pb-4">
+<p class="ps-lg-5 ps-2 bv">Mauris eros dolor, pellentesque sed luctus dapibus, lobortis a</p>
+<p class="ps-lg-5 ps-2 bv">orci. Cras pulvinar lorem elit, vel laoreet magna feugiat necam</p>
+<p class="ps-lg-5 ps-2 bv">ut consequat enim.</p>
+<div class="row ps-lg-5 ps-2 pt-4">
+<div class="col-2 ">
+<div class="col-12">
+<img src="av4.jpg" class="img-fluid asa">
+
+</div>
+</div>
+<div class="col-4">
+<p class=" isd pt-2 pb-2 ps-lg-0 ps-2">Kylo James</p>
+<p class="hg ">Fitness Instructor</p>
+</div>
+
+<div class="col-lg-3 col-5 ms-auto pt-4 pb-2">
+
+<span class="fa fa-star"></span>
+<span class="fa fa-star"></span>
+<span class="fa fa-star"></span>
+<span class="fa fa-star"></span>
+<span class="fa fa-star"></span>
+
+
+</div>
+
+</div>
+
+</div>
+</div>
+
+
+
+
+
+
+
+</div>
+
+<div class="row pb-4 pt-lg-2 pt-0">
+<div class="col-lg-6 col-12 pb-lg-0 pb-4  rounded pe-lg-4 pe-0 ">
+<div class="col-12 pt-4 bg-white pb-4">
+<p class="ps-lg-5 ps-2 bv">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi</p>
+<p class="ps-lg-5 ps-2 bv">volutpat justo sed efficitur cursus. Mauris fringilla quam vitae</p>
+<p class="ps-lg-5 ps-2 bv">lacinia viverra.</p>
+<div class="row ps-lg-5 ps-2 pt-4">
+<div class="col-2 ">
+<div class="col-12">
+<img src="ad9.jpg" class="img-fluid asa">
+
+</div>
+</div>
+<div class="col-4 ps-lg-0 ps-2">
+<p class=" isd pt-2 pb-2 ">Ishita Malhotra</p>
+<p class="hg ">HR Manager, WeServe LLC.</p>
+</div>
+
+<div class="col-lg-3 col-5 ms-auto pt-4 pb-2">
+
+<span class="fa fa-star"></span>
+<span class="fa fa-star"></span>
+<span class="fa fa-star"></span>
+<span class="fa fa-star"></span>
+<span class="fa fa-star-half-stroke"></span>
+
+
+</div>
+
+</div>
+
+</div>
+</div>
+
+<div class="col-lg-6 col-12 pb-lg-0 pb-4   rounded ps-lg-3 ps-0 ">
+<div class="col-12 pt-4 bg-white pb-4">
+<p class="ps-lg-5 ps-2 bv">Mauris eros dolor, pellentesque sed luctus dapibus, lobortis a</p>
+<p class="ps-lg-5 ps-2 bv">orci. Cras pulvinar lorem elit, vel laoreet magna feugiat necam</p>
+<p class="ps-lg-5 ps-2 bv">ut consequat enim.</p>
+<div class="row ps-lg-5 ps-2 pt-4">
+<div class="col-2 ">
+<div class="col-12">
+<img src="av4.jpg" class="img-fluid asa">
+
+</div>
+</div>
+<div class="col-4 ps-lg-0 ps-2">
+<p class=" isd pt-2 pb-2">Kylo James</p>
+<p class="hg ">Fitness Instructor</p>
+</div>
+
+<div class="col-lg-3 col-5 ms-auto pt-4 pb-2">
+
+<span class="fa fa-star"></span>
+<span class="fa fa-star"></span>
+<span class="fa fa-star"></span>
+<span class="fa fa-star"></span>
+<span class="fa fa-star"></span>
+
+
+</div>
+
+</div>
+
+</div>
+</div>
+
+
+
+
+
+
+
+</div>
+
+
+<div class="row pb-4 pt-lg-2 pt-0">
+<div class="col-lg-6 col-12  pb-lg-0 pb-4 rounded pe-lg-4 pe-0 ">
+<div class="col-12 pt-4 bg-white pb-4">
+<p class="ps-lg-5 ps-2 bv">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi</p>
+<p class="ps-lg-5 ps-2 bv">volutpat justo sed efficitur cursus. Mauris fringilla quam vitae</p>
+<p class="ps-lg-5 ps-2 bv">lacinia viverra.</p>
+<div class="row ps-lg-5 ps-2 pt-4">
+<div class="col-2 ">
+<div class="col-12">
+<img src="av1.jpg" class="img-fluid asa">
+
+</div>
+</div>
+<div class="col-4 ps-lg-0 ps-2">
+<p class=" isd pt-2 pb-2">Ella Perez</p>
+<p class="hg ">Nutrition Expert, Food Villa</p>
+</div>
+
+<div class="col-lg-3 col-5 ms-auto pt-4 pb-2">
+
+<span class="fa fa-star"></span>
+<span class="fa fa-star"></span>
+<span class="fa fa-star"></span>
+<span class="fa fa-star-half-stroke"></span>
+<span class="fa fa-star-half-stroke"></span>
+
+
+</div>
+
+</div>
+
+</div>
+</div>
+
+<div class="col-lg-6 col-12   rounded ps-lg-3 ps-0 ">
+<div class="col-12 pt-4 bg-white pb-4">
+<p class="ps-lg-5 ps-2 bv">Mauris eros dolor, pellentesque sed luctus dapibus, lobortis a</p>
+<p class="ps-lg-5 ps-2 bv">orci. Cras pulvinar lorem elit, vel laoreet magna feugiat necam</p>
+<p class="ps-lg-5 ps-2 bv">ut consequat enim.</p>
+<div class="row ps-lg-5 ps-2 pt-4">
+<div class="col-2 ">
+<div class="col-12">
+<img src="ad7.jpg" class="img-fluid asa">
+
+</div>
+</div>
+<div class="col-4 ps-lg-0 ps-2">
+<p class=" isd pt-2 pb-2">Elsie Ross</p>
+<p class="hg ">Software Developer</p>
+</div>
+
+<div class="col-lg-3 col-5 ms-auto pt-4 pb-2">
+
+<span class="fa fa-star"></span>
+<span class="fa fa-star"></span>
+<span class="fa fa-star"></span>
+<span class="fa fa-star"></span>
+<span class="fa fa-star"></span>
+
+
+</div>
+
+</div>
+
+</div>
+</div>
+
+
+
+
+
+
+
+</div>
+
+
+<div class="col-lg-3 col-12 mx-auto pt-5 pb-5 ps-lg-0 ps-4">
+
+<button class="btn custom aaa text-white re regular">View All Reviews<span class="badge bg-white ms-4"><span class="fa fa-chevron-right "></span></span></button>
+
+
+
+</div>
+
+
+<p class="lmj regular pt-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo Lorem ipsum dolor sit</p>
+<p class="lmj regular">amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo Lorem ipsum dolor sit amet, consectetur</p>
+<p class="lmj regular pb-3">adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo</p>
+
+<p class="asaa regular pb-5">Read More....</p>
+
+
+
+
+
+</div>
+</div>
+
+<div class="container-fluid lkj pt-4 pb-4">
+<div class="container">
+<div class="row">
+<div class="col-lg-3 col-12">
+
+<p class="text-white regular">Copyright © 2022 digione.com</p>
+
+
+</div>
+
+<div class="col-lg-2 col-6 pt-lg-0 pt-3 ms-auto">
+
+<a href="#" class="pe-4 text-white"><span class="fab fa-facebook-square"></span></a>
+<a href="#" class="pe-4 text-white"><span class="fab fa-twitter"></span></a>
+<a href="#" class=" text-white "><span class="fab fa-instagram"></span></a>
+
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+</div>
+</div>
+</div>
+
+
+
+
+
+<script src="jquery-3.6.0.min.js"></script>
+<script src="bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
